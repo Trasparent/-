@@ -1,0 +1,14 @@
+public class AsciiConversion {
+
+	public static void main(String[] args) {
+		
+		char text;
+		int num1=0;
+		
+		for(num1=0;num1<=255;num1++){
+		text=(char)num1;
+			System.out.println(text);}
+
+	}
+
+}
